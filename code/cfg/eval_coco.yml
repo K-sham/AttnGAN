@@ -1,7 +1,7 @@
 CONFIG_NAME: 'attn2'
 
 DATASET_NAME: 'coco'
-DATA_DIR: '../data/coco'
+DATA_DIR: '../../sample_data/folder/train'
 GPU_ID: 3
 WORKERS: 1
 
