@@ -1,7 +1,7 @@
 CONFIG_NAME: 'attn2-dcgan'
 
 DATASET_NAME: 'birds'
-DATA_DIR: '../data/birds'
+DATA_DIR: '../../sample_data/folder/train'
 GPU_ID: 3
 WORKERS: 1
 
