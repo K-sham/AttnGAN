@@ -1,7 +1,7 @@
 CONFIG_NAME: 'attn2-dcgan'
 
 DATASET_NAME: 'birds'
-DATA_DIR: '../data/birds'
+DATA_DIR: '../../sample_data/folder/train'
 GPU_ID: 0
 WORKERS: 4
 
@@ -12,7 +12,7 @@ TREE:
 
 TRAIN:
     FLAG: True
-    NET_G:  ''  # '../models/bird_AttnDCGAN2.pth'
+    NET_G:  '../models/bird_AttnDCGAN2.pth'
     B_NET_D: True
     BATCH_SIZE: 30
     MAX_EPOCH: 400
